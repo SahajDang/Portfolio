@@ -1,2 +1,2 @@
 # Resume
-My Resume built using HTML, CSS and Javascript and is completely Responsive.
+My Resume built using HTML, CSS and basic Javascript and is completely Responsive.
