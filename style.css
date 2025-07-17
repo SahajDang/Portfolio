@@ -468,3 +468,9 @@ nav .fa-solid {
   margin-top: -40px;
   display: block;
 }
+
+.form-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #0056b3; 
+}
