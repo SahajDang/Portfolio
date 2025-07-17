@@ -11,6 +11,7 @@ html {
 body {
   background-color: #080808;
   color: white;
+  overflow-x: hidden;
 }
 
 #header {
@@ -390,14 +391,27 @@ nav .fa-solid {
   display: none;
 }
 @media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  
   #header {
     background-image: url(Images/phone-background.png);
   }
-
+}
   .header-text {
     margin-top: 100%;
     font-size: 16px;
   }
+
+
+  .container {
+    padding: 0 5%;
+  }
+
+  img, h1, h2, p {
+  max-width: 100%;
+  word-wrap: break-word;
+}
 
   .header-text h1 {
     font-size: 30px;
@@ -461,6 +475,12 @@ nav .fa-solid {
   .copyright {
     font-size: 14px;
   }
+
+  .services-list {
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
 }
 
 #msg {
