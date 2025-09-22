@@ -395,7 +395,7 @@ nav .fa-solid {
     flex-direction: column;
   
   #header {
-    background-image: url(Images/phone-background.png);
+    background: url("Images/phone-background.png") no-repeat center center/cover;
   }
 }
   .header-text {
@@ -494,3 +494,4 @@ nav .fa-solid {
   font-weight: bold;
   color: #0056b3; 
 }
+
